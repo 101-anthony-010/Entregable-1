@@ -1,0 +1,7 @@
+.shadow-tittle {
+    text-shadow: 4px 6px 0px rgba(0, 0, 0, 0.17);
+}
+
+.shadow-container {
+    box-shadow: 12px 12px 1px rgba(0, 0, 0, 0.13);
+}
