@@ -8,7 +8,7 @@ import Author from './components/author'
 import Bg from './components/bg'
 
 function App() {
-  const list = ['/public/fortuna-2/img-1.jpg','/public/fortuna-2/img-2.jpg','/public/fortuna-2/img-3.jpg','/public/fortuna-2/img-4.jpg']
+  const list = ['/fortuna-2/img-1.jpg','/fortuna-2/img-2.jpg','/fortuna-2/img-3.jpg','/fortuna-2/img-4.jpg']
   
   const getRandom = (listItems) => {
     const randomIndex = Math.floor(Math.random() * listItems.length)
@@ -27,11 +27,11 @@ function App() {
     <div className="flex flex-col content-center">
       <Bg props={image}></Bg>
       <h2 className='z-50 m-auto text-2xl font-bold text-white text-center mb-16 max-w-xs shadow-tittle'>GALLETAS DE LA FORTUNA</h2>
-      <div className='z-50 mx-2.5 px-10 py-14 container-text max-w-sm bg-no-repeat bg-center bg-contain' style={{ backgroundImage: "url('/public/container-text.png')"}}>
+      <div className='z-50 mx-2.5 px-10 py-14 container-text max-w-sm bg-no-repeat bg-center bg-contain' style={{ backgroundImage: "url('/container-text.png')"}}>
         <Cart quote={quote}></Cart>
         <div className='flex justify-between'>
           <Author quote={quote}></Author>
-          <img src="/public/Vector.jpg" className='relative absolute bottom-3' alt=""/>
+          <img src="/Vector.jpg" className='relative absolute bottom-3' alt=""/>
         </div>
       </div>
       <div className='flex justify-center mt-6'>
